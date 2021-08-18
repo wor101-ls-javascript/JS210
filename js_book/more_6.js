@@ -12,3 +12,4 @@ function allMatches(words, regex) {
 }
 
 console.log(allMatches(words, /lab/)); // => ['laboratory', 'flab', 'elaborate']
+  
