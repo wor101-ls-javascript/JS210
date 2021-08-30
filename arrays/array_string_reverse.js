@@ -11,12 +11,6 @@ function reverse(inputForReversal) {
 
   Array.isArray(inputForReversal) ? reversedInput = [] : reversedInput = '';
 
-  // if (Array.isArray(inputForReversal)) {
-  //   reversedInput = [];
-  // } else {
-  //   reversedInput = '';
-  // }
-
   for (let index = inputForReversal.length - 1; index >= 0; index -= 1) {
     if (Array.isArray(inputForReversal)) {
       reversedInput.push(inputForReversal[index]);
